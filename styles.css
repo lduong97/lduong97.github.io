@@ -7,6 +7,8 @@ COLOR PALETTE
 #F2DFD7 - champagne pink
 #E1EFF6 - alice blue
 #001B2E - oxford blue
+#3D7068 - Some green
+#08415C - Indigo dye
 */
 
 /* Global styles
@@ -30,7 +32,7 @@ body {
     width: 300px;
 } */
 a {
-    color: #C6CCB2;
+    color: #2D1E2F;
 }
 a:hover {
     text-decoration: none;
@@ -78,34 +80,6 @@ header {
    color: #E1EFF6;
 }
 
-
-/* Projects
-------------------------------------------------- */
-/* .projects {
-    background: #F2DFD7;
-} */
-/* .projects a {
-    color: #001B2E;
-}
-.projects .btn {
-    color: white;
-    background: #001B2E;
-    text-decoration: none;
-    padding: 8px;
-    border-radius: 4px;
-    display: inline-block;
-}
-.projects .btn:hover {
-    background: rgba(0, 27, 46, 80%);
-}
-.project-item {
-    overflow: hidden;
-}
-.project-item h3 {
-    margin-top: 0;
-} */
-
-
 /* Work Experience
 ------------------------------------------------- */
 .work-experience {
@@ -113,6 +87,48 @@ header {
     color: #E1EFF6;
 }
 
+.work-experience a .btn {
+    color: #001B2E;
+}
+.work-experience .btn {
+    color: white;
+    background: #001B2E;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.work-experience .btn:hover {
+    background: rgba(0, 27, 46, 80%);
+}
+
+/* Personal Life
+------------------------------------------------- */
+.personal-life {
+    background: #3D7068;
+    color: #E1EFF6;
+}
+.personal-life a {
+    color: #001B2E;
+}
+.personal-life .btn {
+    color: white;
+    background: #001B2E;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.personal-life .btn:hover {
+    background: rgba(0, 27, 46, 80%);
+}
+/*
+.project-item {
+    overflow: hidden;
+}
+.project-item h3 {
+    margin-top: 0;
+} */
 
 /* Education & Certifications
 ------------------------------------------------- */
