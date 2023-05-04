@@ -53,7 +53,25 @@ h1, h2 {
     max-width: 800px;
     width: 85%;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 50px 0;
+}
+.nav-content {
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+    padding-right: 15px;
+    /* padding-left: 75%; */
+}
+.nav-content a {
+    color: #F2DFD7;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-content a:hover {
+    background-color: #C6CCB2;
+    color: #272635;
 }
 h3 {
     margin-bottom: 0;
@@ -157,7 +175,7 @@ footer {
     padding: 0;
 }
 .contact-list a {
-    padding: 15px;
+    padding: 20px;
     display: inline-block;
 }
 
