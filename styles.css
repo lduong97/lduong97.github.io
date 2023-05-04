@@ -108,7 +108,7 @@ header {
     background: #3D7068;
     color: #E1EFF6;
 }
-.personal-life a {
+.personal-life a .btn {
     color: #001B2E;
 }
 .personal-life .btn {
