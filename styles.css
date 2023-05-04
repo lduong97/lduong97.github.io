@@ -69,7 +69,7 @@ h1, h2 {
     text-decoration: none;
 }
 .nav-content a:hover {
-    background-color: #C6CCB2;
+    background: #C6CCB2;
     color: #272635;
 }
 h3 {
