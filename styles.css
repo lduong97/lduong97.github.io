@@ -165,7 +165,7 @@ header {
     background: #B75D69;
 }
 
-.open-modal {
+/* .open-modal {
     background: #20c997;
     color: #fff;
     border: none;
@@ -197,12 +197,12 @@ header {
 }
 
 .modal-body p { 
-   font-size: 22px;
+    font-size: 22px;
     line-height: 1.5; 
 } 
 
 .hidden-modal { 
-   display: none; 
+    display: none; 
 }
 .close-modal {
     background: transparent;
@@ -230,7 +230,7 @@ header {
 
 .hidden-blur {
     display: none;
-}
+} */
 
 /* Contact
 ------------------------------------------------- */
