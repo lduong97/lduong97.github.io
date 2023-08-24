@@ -1,5 +1,5 @@
 let modalContent = document.querySelector(".modal-content");
-let openModal = document.querySelector(".open-modal");
+let openModal = document.querySelector(".painting .btn");
 let closeModal = document.querySelector(".close-modal");
 let blurBg = document.querySelector(".blur-bg");
 

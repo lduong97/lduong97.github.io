@@ -20,7 +20,7 @@ html {
     box-sizing: inherit;
 }
 
-body {
+body, button {
     color: #272635;
     margin: 0;
     padding: 0;
@@ -160,26 +160,42 @@ header {
     width: 60%;
 }
 
-/* Paintings */
+/* Paintings
+------------------------------------------------- */
 .painting {
     background: #B75D69;
 }
-
-/* .open-modal {
-    background: #20c997;
-    color: #fff;
-    border: none;
-    padding: 20px 40px;
-    font-size: 48px;
-    border-radius: 100px;
-    cursor: pointer;
-    transition: all 0.3s;
-    outline: none;
+.painting button .btn {
+    color: #001B2E;
 }
-
-.open-modal:active {
+.painting .btn {
+    color: white;
+    background: #001B2E;
+    border: none;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.painting .btn:hover {
+    background: rgba(0, 27, 46, 80%);
+}
+.painting .btn:active {
     transform: translateY(-17px);
 }
+/* .open-modal {
+    background: #001B2E;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+} */
+
+/* .open-modal:active {
+    transform: translateY(-17px);
+} */
 .modal-content {
     background: #ccc;
     width: 500px;
@@ -230,7 +246,7 @@ header {
 
 .hidden-blur {
     display: none;
-} */
+}
 
 /* Contact
 ------------------------------------------------- */
