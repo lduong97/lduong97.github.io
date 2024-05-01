@@ -1,5 +1,5 @@
 
-document.addEventListener("DOMContentLoaded", function() {
+// document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("openPopup").addEventListener("click", function() {
         var popup = document.getElementById("popup");
         popup.style.display = "flex";
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("closePopup").addEventListener("click", function() {
         document.getElementById("popup").style.display = "none";
     });
-});
+// });
 
 function centerPopup(popup) {
     var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
