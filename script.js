@@ -1,25 +1,26 @@
-let modalContent = document.querySelector(".modal-content");
-let openModal = document.querySelector(".painting .btn");
-let closeModal = document.querySelector(".close-modal");
-let blurBg = document.querySelector(".blur-bg");
 
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("openPopup").addEventListener("click", function() {
+        var popup = document.getElementById("popup");
+        popup.style.display = "flex";
+        // centerPopup(popup);
+    });
 
-openModal.addEventListener("click", function () {
-    modalContent.classList.remove("hidden-modal");
-    blurBg.classList.remove("hidden-blur");
+    document.getElementById("closePopup").addEventListener("click", function() {
+        document.getElementById("popup").style.display = "none";
+    });
 });
 
+function centerPopup(popup) {
+    var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+    var viewportHeight = window.innerHeight || document.documentElement.clientHeight;
 
-let closeModalFunction = function () {
-    modalContent.classList.add("hidden-modal")
-    blurBg.classList.add("hidden-blur")
+    var popupWidth = popup.offsetWidth;
+    var popupHeight = popup.offsetHeight;
+
+    var left = (viewportWidth - popupWidth) / 2 + "px";
+    var top = (viewportHeight - popupHeight) / 2 + "px";
+
+    popup.style.left = left;
+    popup.style.top = top;
 }
-
-blurBg.addEventListener("click", closeModalFunction);
-closeModal.addEventListener("click", closeModalFunction);
-
-document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape" && !modalContent.classList.contains("hidden")) {
-        closeModalFunction();
-    }
-});
