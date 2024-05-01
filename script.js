@@ -1,8 +1,10 @@
 
 // document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("openPopup").addEventListener("click", function() {
-        var popup = document.getElementById("popup");
-        popup.style.display = "flex";
+        document.getElementById("popup").style.display = "flex";
+
+        // var popup = document.getElementById("popup");
+        // popup.style.display = "flex";
         // centerPopup(popup);
     });
 
